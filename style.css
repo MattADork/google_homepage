@@ -6,10 +6,18 @@ a {
   margin-top: 10px;
 }
 
-#centered {
-  text-align: center;
+.centered {
+  width: 75%;
+  position: fixed;
+  left: 50%;
+  margin-left: -37.5%;
 }
 
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 #link1 {
  margin-left: 20px;
 }
@@ -25,6 +33,11 @@ margin-left: 550px;
 #link4 {
 margin-left: 600px;
 }
+
+#logobox {
+margin-top: 300px;
+}
+
 #button1 {
   position: fixed;
   background-color: rgb(40, 121, 187);
@@ -36,9 +49,8 @@ margin-left: 600px;
   margin-left: 650px;
 }
 
-#logobox {
-  position: fixed;
-  margin-top: 300px;
+#imagebox {
+  text-align:center;
 }
 
 #sbar {
@@ -52,4 +64,33 @@ margin-left: 600px;
   border: 0px;
   padding: 8px 10px 8px 10px;
   background-color: rgb(233, 233, 233);
+  text-align: center;
+}
+
+#buttonsbox {
+  left: 40%;
+}
+
+#thefoot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(230, 230, 230);
+  color: black;
+  border: 5px;
+  font-size: 20px;
+}
+
+#footlink1 {
+  margin-left: 60px;
+}
+
+#footlink2 {
+  margin-left: 160px;
+}
+
+#footlink3 {
+  margin-left: 240px;
 }
