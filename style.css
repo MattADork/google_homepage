@@ -36,3 +36,20 @@ margin-left: 600px;
   margin-left: 650px;
 }
 
+#logobox {
+  position: fixed;
+  margin-top: 300px;
+}
+
+#sbar {
+  width: 490px;
+  height: 40px;
+  border-radius: 10%
+}
+
+.inputbuttons {
+  border-radius: 0%;
+  border: 0px;
+  padding: 8px 10px 8px 10px;
+  background-color: rgb(233, 233, 233);
+}
